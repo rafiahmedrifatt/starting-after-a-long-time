@@ -162,3 +162,12 @@ main section {
     justify-content: space-between;
     padding: 0 15px;
 }
+
+/* footer related styles */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: #fff8f3;
+    padding: 130px 100px;
+}
