@@ -5,11 +5,11 @@ body {
     font-style: normal;
 }
 
-.text-primary{
+.text-primary {
     color: orange;
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 5px;
     background-color: #FD6E0A;
     border: 0;
@@ -29,13 +29,14 @@ nav {
     margin: 0 100px;
 }
 
-.nav-title{
+.nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
     margin: 0 10px;
 }
-nav > ul {
+
+nav>ul {
     display: flex;
     align-items: center;
 }
@@ -52,75 +53,112 @@ nav a {
 
 /* header related style */
 
-.header{
+.header {
     background-color: #fff8f3;
     background-image: url(/images/header_bg.png);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: bottom right;
 }
 
-.banner{
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner-content{
+.banner-content {
     max-width: 500px;
 }
-.banner .profile-pic{
+
+.banner .profile-pic {
     width: 500px;
     margin-right: 100px;
 }
-.banner-greeting{
+
+.banner-greeting {
     font-size: 45px;
     color: #474747;
     margin-bottom: 0;
 }
-.banner-title{
+
+.banner-title {
     font-size: 80px;
     font-weight: 700;
     margin: 0 5px;
 }
 
-.banner-description{
+.banner-description {
     margin-top: 5px;
 }
 
 /* main section style */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* about section style */
 
-.about{
+.about {
     padding: 130px;
     margin: 0px 150px;
     background: #fff8f3;
     margin: 130px 0;
 }
 
-.about-title{
+.about-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
 
-.section-description{
+.section-description {
     color: #757575;
-     text-align: center;
-     font-size: 18px;
+    text-align: center;
+    font-size: 18px;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around
 }
 
-.about-info{
+.about-info {
     text-align: center;
+}
+
+/* skills related styles */
+
+.skill-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill {
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(96, 88, 88, 0.86);
+}
+
+
+/* Resume related style */
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
 }
